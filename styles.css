@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  color: #26382e;
+  background: #faf8ed;
+  font:
+    17px/1.7 Arial,
+    sans-serif;
+}
+header {
+  background: #2e5640;
+  color: white;
+  padding: 28px 6%;
+}
+header h1 {
+  margin: 0;
+}
+nav {
+  display: flex;
+  gap: 24px;
+  margin-top: 12px;
+}
+nav a {
+  color: white;
+}
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+section {
+  margin-bottom: 30px;
+}
+.activities {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.activities article {
+  flex: 1 1 220px;
+  background: white;
+  padding: 20px;
+  border: 1px solid #c6d0ba;
+}
+a {
+  color: #28593d;
+}
+footer {
+  border-top: 1px solid #c6d0ba;
+  text-align: center;
+  padding: 15px;
+}
